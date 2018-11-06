@@ -2,10 +2,6 @@ package com.funsnap.maptest.map;
 
 import android.graphics.Color;
 
-/**
- * @since 3.3.0
- * Created by hongming.wang on 2016/12/19.
- */
 
 public class MapConst {
 	/**
@@ -30,4 +26,10 @@ public class MapConst {
 	 */
 
 	public static final float RADIUS = 200;
+
+	/**
+	 * 最小航点距离
+	 */
+
+	public static final float MARKER_DISTANCE_MIN = 30;
 }
